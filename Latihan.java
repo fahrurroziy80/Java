@@ -1,32 +1,27 @@
 
 public class Latihan {
-    public static void main(String[] args){
-        int nilai = 90;
+     public static void main(String [] args) {
+        // Contoh perulangan for
+         double angsPokok = 200000;
+        double bunga = 0.2;
+        double jk = 10;
+        double angsBunga, angsuran;
+        double pinjaman = 0;
         
-        switch (nilai){
-            case 90:
-                System.out.println("kamu dapat = A ");
-                break;
-            case 80:
-                System.out.println("kamu dapat = B ");
-                break;
-            case 70:
-                System.out.println("kamu dapat = C ");
-                break;
-            case 60:
-                System.out.println("kamu datap = D ");
-                break;
-            case 50: 
-                System.out.println("kamu dapat = E :");
-                
-                
-                
-                
+        for (double i = 1; i <= jk; i++) {
+             pinjaman += angsPokok;
+            System.out.println("Angsuran pokok ke- :"+(i+1)+" = "+pinjaman);
         }
         
+        System.out.println("--------------------");
         
+         // Contoh perulangan while
+        int i = 1;
+        while (i <= 20) {
+            System.out.println("Iterasi ke-" + i);
+            i++;
+        }
+        //
     }
-        
-       
     
 }

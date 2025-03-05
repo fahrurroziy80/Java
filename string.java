@@ -3,18 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package inputoutput;
 
 /**
  *
  * @author ACER
  */
-public class i {
-    public static void main(String []args){
-        String Nama = null;
-        
-        String nama = Nama;
-     
-    System.out.print("Fahrurrozi");}
-    
+class string {
     
 }

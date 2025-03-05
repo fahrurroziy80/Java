@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package inputoutput.java;
 
 /**
  *
  * @author ACER
  */
-public class i {
-    public static void main(String []args){
-        String Nama = null;
-        
-        String nama = Nama;
-     
-    System.out.print("Fahrurrozi");}
-    
+public class InputoutputJava {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }
